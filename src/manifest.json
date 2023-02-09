@@ -1,0 +1,13 @@
+{
+	"manifest_version": 1,
+	"id": "com.github.fsdsabel.joplin-plugin-screencapture",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "Screen Capture",
+	"description": "Capture screen to complement notes.",
+	"author": "Daniel Sabel",
+	"homepage_url": "https://github.com/fsdsabel/joplin-plugin-screencapture",
+	"repository_url": "https://github.com/fsdsabel/joplin-plugin-screencapture",
+	"keywords": [],
+	"categories": []
+}
