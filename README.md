@@ -1,11 +1,10 @@
-# Joplin Plugin
+# Joplin Plugin for Screen Capture
 
-This is a template to create a new Joplin plugin.
+This plugin adds two buttons to the note editor that allows you to capture the screen using ffmpeg. You need to have ffmpeg somewhere and give it some meaningful options. Look at the FFMPEG options in the Joplin settings.
 
-The main two files you will want to look at are:
+The default settings are for Windows and my microphone. An error handling is not really implemented so make sure to look at the task manager for an ffmpeg process running.
 
-- `/src/index.ts`, which contains the entry point for the plugin source code.
-- `/src/manifest.json`, which is the plugin manifest. It contains information such as the plugin a name, version, etc.
+There is no real indication that a screen capture is running. If there is some API to do this, I'd be glad about a note.
 
 ## Building the plugin
 

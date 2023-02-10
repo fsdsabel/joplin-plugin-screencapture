@@ -153,6 +153,7 @@ const pluginConfig = Object.assign({}, baseConfig, {
 		filename: 'index.js',
 		path: distDir,
 	},
+	devtool: 'inline-source-map',
 	plugins: [
 		new CopyPlugin({
 			patterns: [
